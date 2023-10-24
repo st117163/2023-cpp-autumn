@@ -11,13 +11,11 @@ int main(int argc, char* argv[])
 	if ((a != 1 && b != 1) || (a == 1 && b == 1))
 	{
 		std::cout << "YES" << std::endl;
-		return EXIT_SUCCESS;
 	}
 	else
 	{
 		std::cout << "NO" << std::endl;
-		return EXIT_SUCCESS;
 	}
 
-	return EXIT_FAILURE;
+	return EXIT_SUCCESS;
 }

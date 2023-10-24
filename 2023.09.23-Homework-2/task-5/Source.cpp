@@ -8,18 +8,14 @@ int main(int argc, char* argv[])
 	if (n % 10 == 0 || (n % 10 >= 5 && n % 10 <= 9) || (n % 100 >= 11 && n % 100 <= 14))
 	{
 		std::cout << n << " bochek" << std::endl;
-		return EXIT_SUCCESS;
 	}
 	else  if (n % 10 == 1)
 	{
 		std::cout << n << " bochka" << std::endl;
-		return EXIT_SUCCESS;
 	}
 	else
 	{
 		std::cout << n << " bochki" << std::endl;
-		return EXIT_SUCCESS;
 	}
-
-	return EXIT_FAILURE;
+	return EXIT_SUCCESS;
 }

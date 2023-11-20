@@ -17,9 +17,10 @@ int main(int argc, char* argv[])
 			++s;
 			if (s == t)
 			{
-				return EXIT_SUCCESS;
+				return 0;
 			}
 			--n;
 		}
 	}
+	return EXIT_SUCCESS;
 }

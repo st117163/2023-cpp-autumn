@@ -1,0 +1,12 @@
+#ifndef _F_H_TWICE
+
+#ifndef _F_H_ONCE
+#define _F_H_ONCE
+#else
+#define _F_H_TWICE
+#endif
+
+void f();
+
+#endif
+

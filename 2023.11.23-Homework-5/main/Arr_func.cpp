@@ -77,7 +77,7 @@ int extractElement(int*& a, int& len, int index)
 
 void ReverseArray(int*& a, int len)
 {
-	int* newA = new int[len]{ 0 };
+	int* newA = new int[len] { 0 };
 	if (a == nullptr)
 	{
 		std::cout << "EMPTY";
@@ -99,7 +99,7 @@ void appendRandomElements(int*& a, int& len, int n)
 	for (int i = 0; i < n; ++i)
 	{
 		expandArray(a, len);
-		a[len - 1] = rand()- RAND_MAX/2;
+		a[len - 1] = rand() - RAND_MAX / 2;
 	}
 }
 

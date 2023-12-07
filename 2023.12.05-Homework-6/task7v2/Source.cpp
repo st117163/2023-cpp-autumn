@@ -42,11 +42,11 @@ int top(int a)
 	}
 }
 
-void HanoiSort(int tower = 1)
+void HanoiSort(int a = 1)
 {
-	int a = 1;
-	int b = 2;
-	int c = 3;
+	int b = 0;
+	a == 3 ? b = 2 : b = a + 1;
+	int c = 6 - a - b;
 
 	while (n[a] > 0)
 	{

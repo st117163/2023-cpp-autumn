@@ -1,0 +1,2 @@
+File "in.txt" contains 334 words.
+The longest sentence is: "Unsustainable fishing practices lead to the decline of fish populations, disrupting the delicate balance of marine ecosystems and threatening the livelihoods of coastal communities’ dependent on fishing. "
